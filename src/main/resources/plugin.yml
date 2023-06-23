@@ -1,0 +1,5 @@
+name: chatbot_plugin_ilovapples
+version: '${version}'
+main: com.chatbot_plugin_ilovapples.ChatBotMain
+api-version: "1.20"
+authors: [ilovapples]
