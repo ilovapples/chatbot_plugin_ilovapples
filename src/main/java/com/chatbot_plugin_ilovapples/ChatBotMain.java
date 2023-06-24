@@ -11,11 +11,6 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public final class ChatBotMain extends JavaPlugin {
-
-    private void send_json_text(Player recipient, String message) {
-        Bukkit.dispatchCommand(recipient, "tellraw @s " + message);
-    }
-
     @Override
     public void onEnable() {
         Logger chat_bot_logger = Bukkit.getLogger();
